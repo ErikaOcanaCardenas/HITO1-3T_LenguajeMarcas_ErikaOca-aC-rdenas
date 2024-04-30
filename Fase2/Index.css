@@ -1,0 +1,46 @@
+h1 {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+select {
+    font-size: 19px;
+    color: #000000;
+    text-align: center;
+
+}
+.desplegables{
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    font-size: 18px;
+    border: 3px solid  rgb(31, 53, 39);
+    border-radius: 5px;
+    background-color:  rgb(206, 255, 224);
+}
+.Caja{
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    border: 3px solid  rgb(31, 53, 39);
+    border-radius: 5px;
+    background-color:  rgb(206, 255, 224);
+}
+body{
+    background-color: rgba(108, 184, 137, 0.651);
+    text-align: center;
+}
+  

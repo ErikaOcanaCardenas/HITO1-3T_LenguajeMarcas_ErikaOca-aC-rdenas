@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Index.css">
+        <title>Selección de Provincias y Municipios</title>
+    </head>
+    <body>
+        <h1>Temperatura por Municipios</h1>
+        <div class="Caja">
+            <h2><label for="provincias">Selecciona una provincia:</label></h2>
+            <br>
+            <div class="desplegables" >
+            <select id="provincias" onchange="cargarMunicipios()">
+                <option>Selecciona una provincia...</option>
+            </select>
+            </div>
+        
+            <br>
+        
+            <h2><label for="municipios">Selecciona un municipio:</label></h2>
+            <br>
+            <div class="desplegables" >
+            <select id="municipios" onchange="mostrarClima()">
+                <option>Selecciona una provincia primero...</option>
+            </select>
+            </div>
+        </div>
+    
+        <div id="clima"></div>
+    <script src="Index.js"></script>
+</body>
+
+</html>
